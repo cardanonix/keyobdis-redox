@@ -81,8 +81,7 @@ So, here we are.  I picked the Redox for this project because it is the most up-
 
 ## Wireless Implementations
 
-The Redox keyboard uses three different wireless implementations, differentiated by firmware:
- - *QMK based*: Leveraging the [Gazel protocol](https://developer.nordicsemi.com/nRF5_SDK/nRF51_SDK_v5.x.x/doc/5.2.0/html/a00140.html). It needs its own PCB and a receiver dongle (see [Redox Wireless](https://github.com/mattdibi/redox-keyboard/tree/master/redox-w) for details) and needs three YJ-14015 MCUs + a Pro Micro compatible controller.
+This fork of the Redox keyboard will one of the other of the following wireless implementations, differentiated by firmware (I am leaning toward KMK at the moment as I hear it is the leading project right now):
  - *ZMK based*: Leveraging the Bluetooth protocol. It is based on the [Redox wired PCB](https://github.com/mattdibi/redox-keyboard/tree/master/redox) and the [nice!nano](https://nicekeyboards.com/nice-nano/) controller.
  - *KMK based*: Adding [Bluetooth Split](http://kmkfw.io/docs/split_keyboards#bluetooth-split-aka-no-trrs-currently-in-testing) code to `boards/redox/main.py`. Combined with a [compatible](http://kmkfw.io/docs/Officially_Supported_Microcontrollers) wireless controller completes wireless configuration. Would advice adding [Bluetooth keycodes](http://kmkfw.io/docs/keycodes#bluetooth-keys) in keymap; `keyboard.keymap` element in `main.py`.
 
@@ -100,21 +99,15 @@ The Redox keyboard uses three different wireless implementations, differentiated
 
 ### Keycaps
 
-| Size  | Qty |                                     Notes                                    |
-|-------|:---:|:----------------------------------------------------------------------------:|
-| 1.5u  |   6 |                                                                              |
-| 1.25u |  10 | You can get away with 8 if you use two 1u keycaps for the 1.25u rotated keys |
-| 1u    |  54 |                                                                              |
-
-> :information_source: On [pimpmykeyboard.com](https://pimpmykeyboard.com/sa-1976-keyset-two-shot/) site you can find a SA 1976 keyset kit specifically made for the Redox keyboard: the "Ergo Redox kit (12 keys)".
+This keyboard will use keycaps and the key layout of the Model 100.  I may end up asking Keyboardio to offer some Cherry versions as well if possible.  This is a big deal since this whole project is based on Cherry keycaps and I am admittedly kind of an idiot for choosing it as the project to fork.  But, again, this is the best project in the ergo mechanical space and it is also MIT open source licensed!
 
 ## Affiliations
 
-In partnership with Falbatech you can now use the code "**mattdibi05**" on Falbatech's store for a 5% OFF special discount.
+I have no affiliations.  I simply want this keyboard to exist!
 
 ## Donations
 
-If you've read this far and found something useful, please consider donating to help me maintain and further develop this project.
+If you've read this far and found something useful, please consider donating to help Mattia maintain and further develop his amazing Redox project of which this project depends so much.
 
 <p align="center">
 <a href="https://www.paypal.me/MattiaDalBen"><img src="img/donate-button.png" alt="Donate button" width=300/></a>
