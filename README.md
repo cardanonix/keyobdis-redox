@@ -3,7 +3,7 @@
 <img src="img/qmk-badge-dark.png" alt="QMK" width="145"/>
 </p>
 
-<h3 align="center">The Redox project repository</h3>
+<h3 align="center">A Rolling Fork of the Amazing Redox project repository</h3>
 
 <div align="center">
 
@@ -26,23 +26,13 @@ The Redox project is an open-source, [QMK (Quantum Mechanical Keyboard Firmware)
 
 ## Rationale
 
-The Redox is a keyboard project designed with ergonomics in mind. It uses Cherry MX style mechanical switches laid out in a 7x5 columnar stagger layout with components that can easily be sourced.
+An ambitious fork of Redox tasked with creating a FOSS Keyboardio Model 100 layout with an added trackball, wireless, and 3D-printed housing.
 
-The design was heavily inspired by the [Ergodox keyboard](https://www.ergodox.io/), and its main goal is to reduce the size without sacrificing too many keys, hence the name **Re**duced Ergo**dox**.
+Love those Keyboadio sculpted keys, am frustrated by that closed-source layout. I want to be able to add these features to my keyboard without waiting for the manufacturer to implement them. That is the point of open source. So, this keyboard is entirely open source, using the MIT License. 
 
-As an Ergodox user I couldn't ignore the few flaws of the original design and in a moment of arrogance I tried to fix them, thus the Redox features:
-- Easier to reach thumb cluster.
-- Additional easy-to-reach rotated 1.25u thumb key.
-- Reduced size.
-- Reduced costs (the Redox uses Arduino Pro Micro instead of the Teensy 2.0).
-- Either half can be plugged in to the PC since each half can act as the master.
-- Either half can work as a standalone keyboard to be used as a macropad/gaming keyboard.
-- RGB backlighting support.
-- 3D-printer friendly case.
-- Wireless [see section below](#wireless-implementations)
-- [VIA](https://caniusevia.com/) compatible (thanks to [Harshit Goel](https://github.com/harshitgoel96))
-- [ZMK firmware](https://zmk.dev/) compatible (thanks to [toddmok](https://github.com/toddmok))
-- [KMK firmware](http://kmkfw.io/) compatible
+I hope to build on the shoulders of Mattia and the beautiful ideas that the Charybdis opened my eyes to with regard to the possibility of wireless, 3d-printed housings that contain trackballs.  Still, I can't imagine liking anything more than the Model 100's layout and I couldn't fork the Charybdis because I don't like his license either. 
+
+So, here we are.  I picked the Redox for this project because it is the most up-to-date and popular of the ergonomic split wireless keyboards and it has the right amount of possible keys (and eyeballs on their repo) to accomplish what I am imagining in the best way possible.  I am typing this on a Keyboardio Model 100.🤤
 
 ## Related Projects
 
